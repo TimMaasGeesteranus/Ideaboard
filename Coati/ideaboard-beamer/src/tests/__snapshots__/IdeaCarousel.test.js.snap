@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`... 1`] = `[Function]`;
+
+exports[`component matches snapshot (: 1`] = `ShallowWrapper {}`;
+
+exports[`component matches snapshot 1`] = `[Function]`;
+
+exports[`component matches snapshot 2`] = `[Function]`;
+
+exports[`component matches snapshot 2 1`] = `ShallowWrapper {}`;
+
+exports[`component matches snapshot 2 2`] = `[Function]`;
+
+exports[`ideaArray has been filled 1`] = `[Function]`;
+
+exports[`props 1`] = `[Function]`;
+
+exports[`props 2 1`] = `ShallowWrapper {}`;
+
+exports[`props are not undefined 1`] = `ShallowWrapper {}`;
+
+exports[`props are still undefined ): 1`] = `ShallowWrapper {}`;

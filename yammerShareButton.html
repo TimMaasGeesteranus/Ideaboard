@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Your Website Title</title>
+<script type="text/javascript" data-app-id="HqJTEa1dVkMph0RCErFX4g" src="https://c64.assets-yammer.com/assets/platform_js_sdk.js"></script>
+<script type="text/javascript" src="https://s0.assets-yammer.com/assets/platform_social_buttons.min.js"></script>
+</head>
+<body>
+<span id="yj-share-button"></span>
+
+<script type="text/javascript">
+  var options = {
+    customButton : true, //false by default. Pass true if you are providing your own button to trigger the share popup
+    classSelector: 'yj-default-share-button',//if customButton is true, you must pass the css class name of your button (so we can bind the click event for you)
+    defaultMessage: 'My custom Message', //optionally pass a message to prepopulate your post
+    pageUrl: 'www.microsoft.com' //current browser url is used by default. You can pass your own url if you want to generate the OG object from a different URL.
+  };
+
+  yam.platform.yammerShare(options);
+  yam.platform.yammerShare();</script>
+
+</body>
+</html>

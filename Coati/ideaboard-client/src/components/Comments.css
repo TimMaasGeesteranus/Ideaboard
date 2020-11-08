@@ -1,0 +1,151 @@
+
+.comment-card{
+    max-width: 750px;
+    text-align:left;
+    padding: 24px;
+    /*background:hsl(204, 86%, 53%);*/
+    border-radius: 8px;
+}
+
+#comments, #comments-count{
+    font-weight:900;
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 8px;
+}
+#comments{
+    color: #000000;
+}
+#comments-count{
+    color: #000000;
+}
+
+.comment-box> * {
+    margin-bottom: 16px;
+}
+
+.comment-box{
+    border-radius: 8px;
+    border: solid 1px #07073a;
+    overflow: hidden;
+    display: block;
+    background: #101087;
+}
+
+
+.comment-box textarea{
+    height: 60px;
+    box-sizing: border-box;
+    resize: none;
+    background: #c9e1ea;
+    padding: 12px;
+    font-weight:600;
+    color:black !important;
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.comment-box {
+    color: #FFFFFF;
+}
+
+::placeholder{
+    color:#FFFFFF;
+}
+
+.comment-panel{
+    display:flex;
+    align-items: center;
+    -webkit-box-align: center;
+    /*background: hsl(171, 100%, 41%);*/
+    padding: 8px;
+}
+
+.comment-panel .comment_as{
+    font-size: 14px;
+    /*font-weight: bold;*/
+    color:#FFFFFF;
+    margin-right: 8px;
+}
+
+.comment-panel . comment_as .username{
+    display: inline-block;
+    color: #4f9eed;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.comment-button{
+    border-radius: 290486px;
+    font-size: 14px;
+    margin-left: auto;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 4px;
+    background:  #78ca5d;
+    transition: 0.1s ease 0s;
+    user-select: none;
+}
+
+.replies-box{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: #59bfcc;
+    padding: 16px 16px 16px 12px;
+    border: 0.1px solid #2f6068;
+    border-radius: 8px;
+}
+
+.reply{
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background: #e0ebef;
+    padding: 16px 16px 16px 12px;
+    border: 0.1px solid #3d4953;
+    border-radius: 8px;
+}
+
+#top{
+    font-weight: bold;
+}
+
+#top #username{
+    color: #101087;
+    margin-right: 8px;
+}
+
+#top #date{
+    display: inline-block;
+    color: #FFB30F;
+    margin-right: 8px;
+    font-size:75%;
+}
+
+#content{
+    color: black;
+}
+
+.has-background-white{
+    background-color: #FFB30F !important;
+}
+
+.titleIdea .has-background-primary{
+    background-color:#59bfcc !important;
+}

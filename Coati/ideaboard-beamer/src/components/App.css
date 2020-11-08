@@ -1,0 +1,112 @@
+.image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image img{
+    width: 250px;
+}
+
+#image {
+    object-fit: contain;
+}
+
+.board-title {
+    /*background-color: #01295F;*/
+    background-color: #101087;
+    border-radius: 5px;
+    /*padding: 25px;*/
+}
+.item-tile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: #c9e1ea;
+}
+
+.notification.is-primary{
+    background-color: #59bfcc;
+}
+
+.number{
+    color: black !important;
+}
+
+.has-background-info{
+    background-color: #FFB30F !important;
+}
+
+
+.message-header {
+    margin-top: 10px;
+}
+
+.newIdeasMessage {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.number{
+  margin-right: 0;
+    min-width: 4em;
+}
+
+.vote-tile{
+   display:flex;
+    align-items: center;
+}
+
+.position-tile{
+    display: flex;
+    justify-content: center;
+}
+
+.notification{
+    padding: .75rem 2.5rem .75rem 0rem
+}
+
+.tile.is-child{
+   /* margin-right: 50px !important;*/
+}
+
+/*.QRcode-line .message{
+    font-size: 1.2rem;
+}*/
+
+.idea-carousel .tile{
+    min-height: 225px;
+    background-color: #78ca5d;
+}
+
+.idea-carousel .number{
+    color: white !important;
+}
+
+.idea-carousel .has-background-info{
+    background-color: #FD151B !important;
+}
+
+.idea-carousel .tile.is-child{
+    margin-right: 50px !important;
+}
+
+.idea-carousel .position-tile{
+    display: none !important;
+}
+
+.idea-carousel .item-tile{
+    margin-left: 1.25rem;
+}
+.has-background-primary{
+    background-color: #59bfcc !important;
+}
+
+.message.is-info .message-header{
+    background-color: #FD151B ;
+}
+
+#newIdeas .message-header{
+    background-color: #FFB30F !important;
+}

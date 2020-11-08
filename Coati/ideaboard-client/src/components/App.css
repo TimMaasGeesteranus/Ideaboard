@@ -1,0 +1,248 @@
+.container {
+    margin-top: 35px !important;
+}
+
+.section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0
+}
+
+.navbar {
+    /*background-color: #209cee;*/
+    background-color: #101087;
+    margin-bottom: 15px;
+}
+
+.navbar .title{
+    color: #c9e1ea;
+}
+
+
+.message.is-primary .message-header{
+    background-color: #59bfcc;
+}
+
+.fab-custom {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+
+}
+
+.MuiFab-primary-3, .MuiFab-primary-32,.MuiFab-primary-61,.MuiFab-primary-119, .MuiButtonBase-root-98, .MuiFab-root-88, .MuiFab-primary-90, .MuiButtonBase-root-301, .MuiFab-root-291, .MuiFab-primary-293{
+    background-color: #FD151B !important;
+}
+
+textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: black;
+}
+
+textarea::placeholder {
+    color: black;
+}
+
+.searchBarTextPlease{
+    text-align: center;
+    margin: 5px !important;
+}
+
+.content.is-large{
+    font-size: 1.2em;
+}
+
+.navbar-row1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-row2{
+    color: white;
+    background-color: #78ca5d;
+}
+
+.navbar-row2 #searchBar{
+    flex-direction: column;
+}
+
+.ideas-overview{
+    margin-top: 25%;
+}
+
+.ideas-overview-loggedIn{
+    margin-top: 38%;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.quill-editor .ql-editor {
+    min-height: 200px;
+}
+
+.quill-editor .ql-container {
+    background-color: #ffffff;
+}
+
+.quill-editor .ql-container {
+    color: #000000;
+}
+
+.is-flex {
+    justify-content: center;
+}
+
+.green-button{
+    background-color: white !important;
+    color: black !important;
+}
+
+.logout-button{
+    background-color:#FD151B !important;
+}
+
+.button {
+    border-radius: 290486px;
+    border-style:none;
+    min-width: 80px;
+    background-color: #FFB30F;
+    color: black;
+}
+
+.share-button{
+    margin-right:10px;
+    text-align:right;
+}
+
+.titleIdea{
+    padding:20px 20px 0px 20px;
+    margin:0;
+    border-radius: 4px;
+    /*background: hsl(171, 100%, 41%);*/
+}
+
+.hero.is-primary.is-bold{
+    background-color: #59bfcc;
+    background-image: none;
+}
+
+.card-content{
+   background-color: #c9e1eaa6;
+}
+
+#loginButton, #registerButton{
+    background-color: #78ca5d;
+}
+
+#loginButton{
+    margin-top: 10px;
+}
+
+#navbarButton{
+/*    background-color:  #FD151B;*/
+    color: white;
+}
+
+.hero.is-primary .title{
+    color: black;
+}
+.username{
+    margin:20px 0 0 0;
+}
+
+#userNameNavBar{
+    color: #FFB30F;
+}
+
+.profileCard{
+    padding:20px 20px 0px 20px;
+    border-radius: 4px;
+}
+
+.card-header-title{
+    background-color:  #78ca5d;
+}
+
+
+@media screen and (max-width: 600px) {
+    .searchComponent .search-container {
+        /*float: none;*/
+    }
+
+    .searchComponent .a, .searchComponent input[type=text], .search-container button {
+        /*float: none;*/
+        display: inline !important;
+        /*text-align: left;*/
+        /*margin: 0;*/
+        padding: 0px !important;
+    }
+
+
+    .searchComponent input[type=text] {
+        /*border: 1px solid #ccc;*/
+    }
+
+    .searchComponent{
+        font-family: Helvetica;
+        font-size: 14px;
+        padding: 0px 0px;
+        overflow: auto;
+        text-align: center;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+
+    .searchComponent .search-container {
+
+    }
+
+    .searchComponent input[type=text] {
+        padding: 4px;
+        margin-top: 8px;
+        font-size: 17px;
+    }
+
+    .searchComponent .search-container button {
+        padding: 6px 10px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .searchComponent .search-container button:hover {
+        background: #ccc;
+    }
+
+    .highlight {
+        background-color: yellow;
+    }
+
+    #ideas span{
+        background-color:#FF9;
+        color:#555;
+    }
+
+
+}
+
+/* PAGINATION */
+.buttons-pagination {
+    width: 200px;
+    display: block;
+    align-self: center;
+    margin: 20px auto;
+}
+
+.buttons-pagination .button.is-primary{
+    background-color: #78ca5d
+}

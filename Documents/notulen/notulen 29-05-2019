@@ -1,0 +1,13 @@
+Notulen 29-05-2019 Retrospective
+
+Voordat je aan een nieuwe feature begint alle tests draaien op elke laptop
+Dus als groep de tests pullen en runnen.
+Als groep niet via de master werken!!!!
+Pull requests moeten gerievewed worden
+
+Kijk ook naar de acceptatiecriteria
+Maak de acceptatiecriteria makkelijk en op dezelfde plek
+Definition of done aanhouden
+Gebruik van mongoose modelling
+Leesbaarheid van code
+Niet eerder weggaan

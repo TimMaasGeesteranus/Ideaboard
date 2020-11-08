@@ -1,0 +1,34 @@
+{
+  "name": "feb2019-project-coati",
+  "version": "1.0.0",
+  "description": "- Lotus ter Haar\r - Daan Bardoel\r - Botan Abak\r - Tim Maas Geesteranus\r - Jaimy Heezen",
+  "main": "Coati/ideaboard-server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && cd Coati/ideaboard-server && npm install && node seed.js && nodemon app.js",
+    "heroku-postbuild": "cd Coati/ideaboard-client && npm install && npm run build && cd ../ideaboard-beamer && npm install && npm run build"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongoose": "^5.5.3",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.11",
+    "ws": "^6.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HANICA-DWA/feb2019-project-coati.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HANICA-DWA/feb2019-project-coati/issues"
+  },
+  "homepage": "https://github.com/HANICA-DWA/feb2019-project-coati#readme"
+}

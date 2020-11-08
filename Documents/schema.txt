@@ -1,0 +1,26 @@
+Ideas
+	_id
+	userId
+	title
+	text
+	date
+	numberOfUpvotes
+
+CommentList
+	_id
+	ideaId
+	parentId
+	userId
+	text
+	date
+
+User
+	_id
+	name
+	role
+
+Board
+	_id
+	boardName
+	ideas = [Idea]
+	QRcode

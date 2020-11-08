@@ -1,0 +1,1 @@
+web: node Coati/ideaboard-server/app
